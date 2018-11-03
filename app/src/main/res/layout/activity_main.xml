@@ -16,4 +16,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/header"
         android:contentDescription="@null"/>
+
+    <ImageView
+        android:id="@+id/ImageViewPoster"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageViewHeader"
+        app:layout_constraintDimensionRatio="w,2:3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewHeader"
+        app:srcCompat="@drawable/poster"
+        android:contentDescription="@null"/>
 </android.support.constraint.ConstraintLayout>
