@@ -5,5 +5,9 @@
     <string name="add_button_string">Add or bookmark</string>
     <string name="button_1_string">RENT PHP9000</string>
     <string name="button_2_string">BUY PHP1200</string>
+    <string name="rating_string">900 ratings</string>
+    <string name="genre_string">Family</string>
+    <string name="tomato_string">12%</string>
+    <string name="similar_string">Similar</string>
 
 </resources>
