@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ConstraintLayoutDemo_Live</string>
+    <string name="movie_title_string">Beauty and the Beast</string>
+    <string name="movie_info_string">PG13 | Comedy | 113 min</string>
+    <string name="add_button_string">Add or bookmark</string>
+    <string name="button_1_string">RENT PHP9000</string>
+    <string name="button_2_string">BUY PHP1200</string>
+
 </resources>
