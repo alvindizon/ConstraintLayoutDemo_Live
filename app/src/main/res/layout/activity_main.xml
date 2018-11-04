@@ -129,7 +129,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton3"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/barrier2"
         app:srcCompat="@drawable/ic_similar" />
 
     <android.support.design.widget.FloatingActionButton
@@ -142,7 +142,7 @@
         app:layout_constraintEnd_toStartOf="@+id/floatingActionButton2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton4"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/barrier2"
         app:srcCompat="@drawable/tomato" />
 
     <android.support.design.widget.FloatingActionButton
@@ -154,7 +154,7 @@
         app:layout_constraintEnd_toStartOf="@+id/floatingActionButton3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton5"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/barrier2"
         app:srcCompat="@drawable/ic_family" />
 
     <android.support.design.widget.FloatingActionButton
@@ -166,7 +166,7 @@
         app:layout_constraintEnd_toStartOf="@+id/floatingActionButton4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/barrier2"
         app:srcCompat="@drawable/ic_similar" />
 
     <TextView
@@ -224,5 +224,13 @@
         app:layout_constraintEnd_toEndOf="@+id/floatingActionButton2"
         app:layout_constraintStart_toStartOf="@+id/floatingActionButton2"
         app:layout_constraintTop_toBottomOf="@+id/floatingActionButton2" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="button,button2"
+        tools:layout_editor_absoluteY="511dp" />
 
 </android.support.constraint.ConstraintLayout>
